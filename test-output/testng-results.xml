@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64982" started-at="2017-05-15T07:35:07Z" finished-at="2017-05-15T07:36:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64982" started-at="2017-05-15T07:35:07Z" finished-at="2017-05-15T07:36:12Z">
+      <class name="com.kronos.udm.testcases.DeviceCreator">
+        <test-method status="PASS" signature="createDevice()[pri:0, instance:com.kronos.udm.testcases.DeviceCreator@42dafa95]" name="createDevice" duration-ms="64904" started-at="2017-05-15T03:35:07Z" description="Creates Device" finished-at="2017-05-15T03:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDevice -->
+      </class> <!-- com.kronos.udm.testcases.DeviceCreator -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

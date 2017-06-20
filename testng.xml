@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UdmAutomationSuite">
+  <test name="smoke">
+  	<!-- <parameter name="uri" value="http://dcs-udm-35.int.kronos.com/udm"/> -->
+  	<!--<parameter name="browserType" value="Chrome"/> -->
+	  <classes>
+	  	<!-- <class name="com.kronos.udm.testcases.TenantCreator" /> -->
+		<class name="com.kronos.udm.testcases.DeviceCreator" />
+		<!--<class name="com.kronos.udm.testcases.TagCreator" />
+		<class name="com.kronos.udm.testcases.GroupCreator" />
+		<class name="com.kronos.udm.testcases.ProfileCreator" />
+		<class name="com.kronos.udm.testcases.CommSettingsCreator" />
+		<class name="com.kronos.udm.testcases.ProfileToSingleDeviceAssigner" />
+		<class name="com.kronos.udm.testcases.ProfileToMultipleDevicesAssigner" />
+		<class name="com.kronos.udm.testcases.AppConfigTemplateToSharedProfilesAssigner" />
+		<class name="com.kronos.udm.testcases.DialogLaunchOnAssigingSharedProfileToSingleDeviceValidator" />
+		<class name="com.kronos.udm.testcases.AlertOnAssigningSharedProfileToSingleDeviceValidator" />
+		<class name="com.kronos.udm.testcases.SharedProfileBetweenDevicesToSingleDeviceAssigner" />
+		<class name="com.kronos.udm.testcases.SingleTemplateToMultipleProfilesAssigner" />
+		<class name="com.kronos.udm.testcases.AlertOnAssigningSharedTemplateToSingleProfileValidator" />
+		<class name="com.kronos.udm.testcases.UpdateSharedAppConfigTemplate" />
+		<class name="com.kronos.udm.testcases.SharedTemplateToSingleProfileAssigner" />
+		<class name="com.kronos.udm.testcases.AutoRegistrationEnabler" />
+		<class name="com.kronos.udm.testcases.DefaultTransactionsTemplateCreator" />  -->  
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

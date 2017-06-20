@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [UdmAutomationSuite]">
+  <test name="smoke(failed)">
+    <classes>
+      <class name="com.kronos.udm.testcases.DeviceCreator">
+        <methods>
+          <include name="createDevice" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.kronos.udm.testcases.DeviceCreator -->
+    </classes>
+  </test> <!-- smoke(failed) -->
+</suite> <!-- Failed suite [UdmAutomationSuite] -->
